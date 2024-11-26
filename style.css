@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Changa:wght@200..800&display=swap');
+
+
+body {
+    font-family: carter one;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(53, 52, 52);
+    width: 100%;
+    display: flex;
+    z-index: 100;
+}
+
+nav #logonav img{
+    width: 100px;
+    height: auto;
+    margin: 15px;
+}
+
+nav h1 {
+    font-family: bebas neue;
+    letter-spacing: 3px;
+    line-height: 22px;
+    padding-top: 10px;
+    font-size: 30px;
+    color : white;
+    margin: 15px;
+}
+
+nav h1 span {
+    letter-spacing: 5.2px;
+    font-size: 18px;
+}
+
+header {
+    justify-content: space-between;
+    background-color: black;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    height: 600px;
+    width: 100%;
+}
+
+header .gambar-kanan img {
+    position: absolute;
+    width: 900px;
+    right: 30px;
+    top: 20px;
+}
+
+header .teks-konten #hdr-satu {
+    position: relative;
+    font-size: 80px;
+    z-index: 99;
+}
+
+header .teks-konten #hdr-dua {
+    letter-spacing: 4px;
+    position: relative;
+    font-size: 30px;
+    bottom: 50px;
+    width: 800px;
+    z-index: 98;
+}
+
+header a {
+    background-color: yellow;
+    color: rgb(222, 182, 108);
+    text-decoration: none;
+    border-radius: 50px;
+    position: relative;
+    padding: 7px 100px;
+    font-size: 25px;
+    bottom: 30px;
+    z-index: 97;
+}
+
+header a:hover {
+    background-color: rgb(233, 233, 43);
+    color: rgb(234, 137, 0);
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    font-family: changa;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.program-lingkar {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.box-program {
+    box-shadow: 0px 0px 8px 1px #888888;
+    border: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 18px;
+    overflow: hidden;
+    padding: 18px;
+    width: 280px;
+}
+
+.img-program {
+    overflow: hidden;
+    width: 280px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.box-program img {
+    width: 100%;
+}
+
+.box-program .teater {
+    position: relative;
+    right: 150px;
+    width: 200%;
+}
+
+.box-program p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.faq-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.faq-box {
+    background-color: #FAFAFA;
+    box-shadow: 0px 0px 8px 0px #888888;
+    border-radius: 18px;
+    overflow: hidden;
+    padding: 10px;
+    width: 500px;
+    display: flex;
+}
+
+.faq-box .font-awesome {
+    width: 150px;
+    margin-right: 10px;
+    align-content:center ;
+   
+}
+
+.faq-box .font-awesome i {
+    font-size: 90px;
+    color: #C6C1C1;
+}
+
+.faq-box .text-main {
+    font-family: changa;
+    align-content: center;
+}
+
+.faq-box .text-main h3 {
+    font-size: 25px;
+    margin-bottom: -2px;
+}
+
+.faq-box .text-main .syarat-gabung {
+    font-size: 22px;
+}
+
+.faq-box .text-main .informasi {
+    font-size: 20px;
+}
+
+.menurut-mereka {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.box-mereka {
+    box-shadow: 0px 0px 8px 1px #888888;
+    border: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 18px;
+    overflow: hidden;
+    padding: 18px;
+    width: 280px;
+}
+
+.img-mereka {
+    overflow: hidden;
+    width: 280px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.box-mereka img {
+    width: 100%;
+}
+
+.box-mereka h2 {
+    font-size: 14px;
+    font-family: changa;
+    font-weight: normal;
+}
+
+.box-mereka p {
+    font-size: 12px;
+    text-align: justify;
+}
