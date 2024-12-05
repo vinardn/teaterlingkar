@@ -36,12 +36,85 @@
     <!-- nav end -->
     <br><br><br><br><br><br><br><br>
 
-    <div class="perbaikan">
-        <h3>MAAF SEDANG DALAM <br> PENGEMBANGAN PROGRAM</h3>
+    <!-- form daftar start -->
+    <div class="container-form">
+        <div class="box-form">
+            <h2 style="text-align: center;">Form Pendaftaran</h2>
+            <br>
+            <form onsubmit="sendMessage()">
+                <div class="forms">
+                    <label for="nama">Nama Lengkap</label> <br>
+                    <input type="text" id="nama" placeholder="Nama Lengkap" required>
+                </div>
+
+                <div class="forms">
+                    <label for="umur">Umur</label> <br>
+                    <input type="number" id="umur" placeholder="Umur" required>
+                </div>
+
+                <div class="forms">
+                    <label for="wa">No. Wa</label> <br>
+                    <input type="number" id="wa" placeholder="No. Whatsapp" required>
+                </div>
+
+
+                <div class="forms">
+                    <label for="cita">Cita-Cita</label> <br>
+                    <input type="text" id="cita" placeholder="Cita-Cita" required>
+                </div>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
     </div>
+    <!-- form daftar end -->
     <br><br>
 
-    <!-- footer start -->
+    <!-- faq start -->
+    <div class="faq-container">
+        <div class="faq-box">
+            <div class="font-awesome">
+                <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="text-main">
+                <h3>Teater Lingkar Itu Apa Sih?</h3>
+                <span>Sebuah sanggar seni yang tidak hanya mengajarkan tentang seni teater tetapi juga seni tari dan musik gamelan</span>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <div class="font-awesome">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+            </div>
+            <div class="text-main">
+                <h3>Apakah Pendaftarannya Berbayar?</h3>
+                <span>Pedaftaran untuk bergabung pada Teater Lingkar Semarang tidak di pungut biaya apapun atau bisa dikatakan gratis</span>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <div class="font-awesome">
+                <i class="fa-solid fa-person-circle-question"></i>
+            </div>
+            <div class="text-main">
+                <h3 class="syarat-gabung">Apakah Ada Syarat Untuk Bergabung?</h3>
+                <span>Untuk Sindhu Laras Bocah memiliki persyaratan umur 10-19 Tahun. Untuk dewasa tidak ada spesifikasi khusus, bahkan individu yang sudah bekerja juga dapat mengikuti.</span>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <div class="font-awesome">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="text-main">
+                <h3 class="informasi">Bagaimana mendapatkan informasi terbaru tentang kegiatan atau acara Teater Lingkar?</h3>
+                <span>Sebuah sanggar seni yang tidak hanya mengajarkan tentang seni teater tetapi juga seni tari dan musik gamelan</span>
+            </div>
+        </div>
+    </div>
+    <!-- faq end -->
+    <br><br>
+    <!-- footer start  -->
     <div class="container-footer">
         <div class="lokasi">
             <h3>Sanggar Kami :</h3> <br>
@@ -62,5 +135,18 @@
         </div>
     </div>
     <!-- footer end-->
+
+    <script>
+        function sendMessage() {
+            const nama = document.getElementById ('nama').value;
+            const umur = document.getElementById ('umur').value;
+            const wa = document.getElementById ('wa').value;
+            const cita = document.getElementById ('cita').value;
+
+            const url = "https://api.whatsapp.com/send?phone=6287833382280&text=Halo%20admin%20saya%20ingin%20mendaftar%20sebagai%20anggota%20Teater%20Lingkar.%20Berikut%20form%20pendukung%20untuk%20pendaftaran%20saya%20%3A%0A%0ANama%20%3A%20*"+ nama +"*%0AUmur%20%3A%20*"+ umur +"*%0ANo.%20Wa%20%3A%20*"+ wa +"*%0ACita-Cita%20%3A%20*"+ cita +"*";
+
+            window.open(url);
+        }
+    </script>
 </body>
 </html>
