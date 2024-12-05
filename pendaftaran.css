@@ -89,14 +89,13 @@
 .box-form {
     border: 1px black solid;
     border-radius: 10px;
-    height: 360px;
-    width: 400px;
+    height: 380px;
+    width: 380px;
     margin: auto;
-    padding: 5px;
 }
 
 .forms {
-    margin-bottom: 12px;
+    margin: 12px;
     
 }
 
@@ -107,7 +106,7 @@
 .forms input {
     border: 1px black solid;
     border-radius: 5px;
-    width: 390px;
+    width: 350px;
     height: 26px;
     padding: 2px;
 }
@@ -118,7 +117,8 @@ button {
     height: 32px;
     padding: 2px;
     border: none;
-    width: 100%;
+    width: 94%;
+    margin: 0px 12px;
 }
 
 .faq-container {
