@@ -86,6 +86,9 @@
     width: 100%;
 }
 
+.perbaikan img {
+    width: 40%;
+}
 
 /* Footer Start */
 @media (min-width: 1280px) {
