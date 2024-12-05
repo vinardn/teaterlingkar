@@ -58,7 +58,7 @@
     height: 50px;
     z-index: 99;
     width: 100%;
-    top: 77px;
+    top: 76px;
 }
 
 .container-nav .nav{
@@ -79,6 +79,7 @@
     color: darkkhaki;
 }
 
+/* Konten Box Start */
 @media (min-width: 1280px) {
 header {
     justify-content: space-between;
@@ -200,7 +201,9 @@ header .teks-konten #hdr-dua {
         top: 200px;
     }
 }
+/* Konten Box End */
 
+/* Konten Deskripsi Start */
 .konten-desc {
     margin: auto;
     width: 70%;
@@ -211,7 +214,9 @@ header .teks-konten #hdr-dua {
     text-align: justify;
     font-size: 14px;
 }
+/* Konten Deskripsi End */
 
+/* Misi Dan Tujuan Start */
 .container-tujuan {
     background-color: #F4F4F4;
     border-radius: 14px;
@@ -245,7 +250,9 @@ header .teks-konten #hdr-dua {
     font-size: 18px;
     color: white;
 }
+/* Misi Dan Tujuan End */
 
+/* Keunggulan Start */
 .container-keunggulan {
     background-color: #F4F4F4;
     border-radius: 14px;
@@ -275,7 +282,9 @@ header .teks-konten #hdr-dua {
     font-size: 18px;
     color: white;
 }
+/* Keunggulan End */
 
+/* Footer Start */
 @media (min-width: 1280px) {
     .container-footer {
         background-color: #C8C8C8;
@@ -420,3 +429,4 @@ header .teks-konten #hdr-dua {
         font-size: 32px;
     }
 }
+/* Footer End */
