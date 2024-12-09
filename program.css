@@ -136,13 +136,26 @@ h1 {
 
 .box-program .teater {
     position: relative;
-    right: 150px;
+    right: 120px;
+    bottom: 60px;
     width: 200%;
 }
 
 .box-program .karawitan {
     position: relative;
     right: 150px;
+    width: 200%;
+}
+
+.box-program .sindhularas {
+    position: relative;
+    right: 190px;
+    width: 200%;
+}
+
+.box-program .tari {
+    position: relative;
+    right: 130px;
     width: 200%;
 }
 
@@ -158,9 +171,86 @@ h1 {
 /* Box Program End */
 
 hr {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
+
+/* artikel link start */
+@media (min-width: 1280px) {
+article {
+    width: 80%;
+    margin: auto;
+}
+
+article .box-artikel {
+    flex-wrap: nowrap;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 95%;
+    gap: 18px;
+}
+
+article .box-artikel img {
+    width: 20%;
+}
+
+article .box-artikel .teks-artikel h3 {
+    font-family: "open sans";
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+article .box-artikel .teks-artikel p {
+    font-family: "open sans";
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+article .box-artikel .teks-artikel a {
+    font-family: "open sans";
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+}
+
+@media (min-width: 360px) and (max-width: 1279px) {
+    article {
+        width: 80%;
+        margin: auto;
+    }
+    
+    article .box-artikel {
+        flex-wrap: nowrap;
+        display: flex;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 95%;
+        gap: 18px;
+    }
+    
+    article .box-artikel img {
+        display: none;
+    }
+    
+    article .box-artikel .teks-artikel h3 {
+        font-family: "open sans";
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    
+    article .box-artikel .teks-artikel p {
+        font-family: "open sans";
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    article .box-artikel .teks-artikel a {
+        font-family: "open sans";
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    }
 
 /* Footer Start */
 @media (min-width: 1280px) {
