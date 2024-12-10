@@ -173,146 +173,578 @@ button {
 /* Footer Start */
 @media (min-width: 1280px) {
     .container-footer {
-        background-color: #C8C8C8;
-        overflow: hidden;
-        display: flex;
-        height: 140px;
+        background-color: black;
         width: 100%;
-        justify-content: center;
+        overflow: hidden;
     }
 
-    .container-footer .lokasi {
-        font-family: "open sans";
-        align-content: center;
-        text-align: center;
-        width: 33%;
+    .container-footer .footer {
+        /* background-color: teal; */
+        display: flex;
+        flex-wrap: nowrap;
+        width: 1100px;
+        margin: auto;
+        
     }
 
-    .container-footer .daftar {
-        font-family: "open sans";
-        align-content: center;
-        text-align: center;
-        width: 33%;
+    .container-footer .footer .kiri {
+        /* background-color: brown; */
+        width: 340px;
+        padding: 20px;
     }
 
-    .container-footer .daftar a {
-        background-color: #8C8C8C;
-        text-decoration: none;
-        border-radius: 30px;
-        padding: 10px 15px;
+    .container-footer .footer .kiri h3 {
         color: white;
+        font-family: "open sans";
+        margin-bottom: 10px;
     }
 
-    .container-footer .daftar a:hover {
-        color: rgb(234, 169, 169);
+    .container-footer .footer .kiri p {
+        color: white;
+        font-family: "open sans";
+        font-size: 12px;
     }
 
-    .container-footer .sosmed {
+    .container-footer .footer .kiri .logo {
+        margin-top: 20px;
+        margin-bottom: 30px
+    }
+
+    .container-footer .footer .kiri .logo img {
+        width: 95px;
+        margin-right: 30px;
+    }
+
+    .container-footer .footer .kiri h4 {
+        color: white;
+        font-family: "open sans";
+        margin-bottom: 20px;
+    }
+
+    .container-footer .footer .kiri a {
+        background-color: white;
+        color: rgb(170, 170, 232);
+        padding: 10px 50px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan {
+        /* background-color: cadetblue; */
+        width: 1000px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar {
+        border-top: 6px solid white;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami {
+        border-top: 6px solid #FFC926;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami {
+        border-top: 6px solid #E00408;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami {
+        border-top: 6px solid #2904E0;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian {
+        border-top: 6px solid #E07204;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .copyright {
+        border-top: 2px solid white;
+        width: 1100px;
+        margin: auto;
+        padding-top: 10px;
+        display: flex;
+
+    }
+
+    .container-footer .copyright p {
+        color: white;
+        font-size: 12px;
+        width: 20%;
+    }
+
+    .container-footer .copyright .sosmed {
         align-content: center;
-        text-align: center;
-        width: 33%;
+        text-align:end ;
+        width: 80%;
     }
 
-    .container-footer .sosmed a {
-        color: #988B8B;
-        font-size: 32px;
-        letter-spacing: 15px;
+    .container-footer .copyright a {
+        color: white;
     }
 }
 
 @media (min-width: 720px) and (max-width: 1279px) {
     .container-footer {
-        background-color: #C8C8C8;
-        overflow: hidden;
-        display: flex;
-        height: 140px;
+        background-color: black;
         width: 100%;
-        justify-content: center;
+        overflow: hidden;
     }
 
-    .container-footer .lokasi {
-        font-family: "open sans";
-        align-content: center;
-        margin-left: 10px;
-        width: 33%;
+    .container-footer .footer {
+        /* background-color: teal; */
+        width: 90vw;
+        margin: auto;
+        
     }
 
-    .container-footer .daftar {
-        font-family: "open sans";
-        align-content: center;
-        text-align: center;
-        width: 33%;
+    .container-footer .footer .kiri {
+        /* background-color: brown; */
+        width: 340px;
+        padding: 20px;
+        margin-bottom: 60px;
     }
 
-    .container-footer .daftar a {
-        background-color: #8C8C8C;
-        text-decoration: none;
-        border-radius: 30px;
-        padding: 10px 15px;
+    .container-footer .footer .kiri h3 {
         color: white;
+        font-family: "open sans";
+        margin-bottom: 10px;
     }
 
-    .container-footer .daftar a:hover {
-        color: rgb(234, 169, 169);
+    .container-footer .footer .kiri p {
+        color: white;
+        font-family: "open sans";
+        font-size: 12px;
     }
 
-    .container-footer .sosmed {
+    .container-footer .footer .kiri .logo {
+        margin-top: 20px;
+        margin-bottom: 30px
+    }
+
+    .container-footer .footer .kiri .logo img {
+        width: 100px;
+        margin-right: 30px;
+    }
+
+    .container-footer .footer .kiri h4 {
+        color: white;
+        font-family: "open sans";
+        margin-bottom: 20px;
+    }
+
+    .container-footer .footer .kiri a {
+        background-color: white;
+        color: rgb(170, 170, 232);
+        padding: 10px 50px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan {
+        /* background-color: cadetblue; */
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar {
+        border-top: 6px solid white;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami {
+        border-top: 6px solid #FFC926;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami {
+        border-top: 6px solid #E00408;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami {
+        border-top: 6px solid #2904E0;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian {
+        border-top: 6px solid #E07204;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .copyright {
+        border-top: 2px solid white;
+        width: 90vw;
+        margin: auto;
+        padding-top: 10px;
+        display: flex;
+
+    }
+
+    .container-footer .copyright p {
+        color: white;
+        font-size: 12px;
+        width: 20%;
+    }
+
+    .container-footer .copyright .sosmed {
         align-content: center;
-        text-align: center;
-        width: 33%;
+        text-align:end ;
+        width: 80%;
     }
 
-    .container-footer .sosmed a {
-        color: #988B8B;
-        font-size: 32px;
-        letter-spacing: 15px;
+    .container-footer .copyright a {
+        color: white;
     }
 }
 
 @media (min-width: 360px) and (max-width: 719px) {
     .container-footer {
-        background-color: #C8C8C8;
-        justify-content: center;
-        padding-top: 20px;
-        height: 280px;
+        background-color: black;
         width: 100%;
+        overflow: hidden;
     }
 
-    .container-footer .lokasi {
-        font-family: "open sans";
-        align-content: center;
-        text-align: center;
+    .container-footer .footer {
+        /* background-color: teal; */
+        width: 1100px;
+        margin: auto;
+        
     }
 
-    .container-footer .daftar {
-        font-family: "open sans";
-        align-content: center;
-        text-align: center;
-        margin-top: 20px;
+    .container-footer .footer .kiri {
+        /* background-color: brown; */
+        width: 340px;
+        padding: 20px;
+        margin-bottom: 60px;
     }
 
-    .container-footer .daftar a {
-        background-color: #8C8C8C;
-        text-decoration: none;
-        border-radius: 30px;
-        padding: 10px 15px;
+    .container-footer .footer .kiri h3 {
         color: white;
+        font-family: "open sans";
+        margin-bottom: 10px;
     }
 
-    .container-footer .daftar a:hover {
-        color: rgb(234, 169, 169);
+    .container-footer .footer .kiri p {
+        color: white;
+        font-family: "open sans";
+        font-size: 12px;
     }
 
-    .container-footer .sosmed {
+    .container-footer .footer .kiri .logo {
+        margin-top: 20px;
+        margin-bottom: 30px
+    }
+
+    .container-footer .footer .kiri .logo img {
+        width: 100px;
+        margin-right: 30px;
+    }
+
+    .container-footer .footer .kiri h4 {
+        color: white;
+        font-family: "open sans";
+        margin-bottom: 20px;
+    }
+
+    .container-footer .footer .kiri a {
+        background-color: white;
+        color: rgb(170, 170, 232);
+        padding: 10px 50px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan {
+        /* background-color: cadetblue; */
+        width: 300px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar {
+        border-top: 6px solid white;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .teater-lingkar a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami {
+        border-top: 6px solid #FFC926;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .ikuti-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami {
+        border-top: 6px solid #E00408;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .kegiatan-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami {
+        border-top: 6px solid #2904E0;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .kunjungi-kami a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian {
+        border-top: 6px solid #E07204;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian h4 {
+        color: white;
+        font-size: 18px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    .container-footer .footer .kanan .pustaka-kesenian a {
+        color: white;
+        font-size: 12px;
+        font-family: "open sans";
+        text-decoration: none;
+    }
+
+    .container-footer .copyright {
+        border-top: 2px solid white;
+        width: 300px;
+        margin: auto;
+        padding-top: 10px;
+        display: flex;
+
+    }
+
+    .container-footer .copyright p {
+        color: white;
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .container-footer .copyright .sosmed {
         align-content: center;
-        text-align: center;
-        margin-top: 40px;
+        text-align:end ;
+        width: 50%;
     }
 
-    .container-footer .sosmed a {
-        letter-spacing: 15px;
-        color: #988B8B;
-        font-size: 32px;
+    .container-footer .copyright a {
+        color: white;
     }
 }
 /* Footer End */
